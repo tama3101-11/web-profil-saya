@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+    <html lang="id"
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"
+        <title>Portofolio Profil Siswa</title>
+    </head>
+    </body> 
+
+    <!--1. HEADER [PARENT UTAMA BAGIAN ATAS]-->
+    <header> class="header-utama">
+            <h1>ALFARIBI KENT NAYOTTAMA</h1>
+            <P>Siswa kelas 10 SMA | Calon Web Developer</P>
+
+            <!-- NAV ADALAH CHILD DARI HEADER, PARENT DARI LINK-->
+             <NAV CLASS="navigasi-web">
+            <a href="#tentang">Tentang</a>"
+            <a href="#keahlian">Keahlian</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak">Kontak</a>
+            </NAV>
+         </header>
+         <hr>
+         <!--2. MAIN [PARENT UTAMA KONTEN TENGAH]-->
+         <main class="konten-utama">
+            
+            <!-- SECTION 1 TENTANG SAYA -->
+             <section id="tentang" class="blok-konten">
+                <h2> TENTANG SAYA </h2>
+                <p>Halo Saya Sedang Belajar Dasar-Dasar Web Design, Git, dan HTML semantik disekolah.</p>
+             </section>
+            
+             <!-- SECTION 2: KEAHLIAN [MEMILIKI CHILD LIST]-->
+             <section id="keahlian" class="blok-konten">
+                <h2>Keahlian yang Dipelajari</h2>
+                <ul> class="daftar-skill">
+                    <li>Struktur Dokumen HTML5</li>
+                    <li>Version Control dengan Git & GitHub</li>
+                    <li>Pengaturan Layout Parent-Child</li>
+                </ul>
+             </section>
+             <section id="proyek" class="blok-konten">
+                <h2>Proyek Portofolio</h2>
+
+                <article class="kartu-proyek">
+                    <h3>Proyek 1: Halaman Profil Statis</h3>
+                    <p>Website biodata pertama yang dibangun menggunakan XAMPP lokal dan di-host di GitHub Pages.</p>
+                </article>
+
+                <article class="kartu-proyek">
+                    <h3>Proyek 2: Eksperimen Branching Git</h3>
+                    <p>Latihan alur kerja cabang ("branch") dan penggabungan kode ("merge") di Git Bash.</p>
+                </article>
+            </section>
+
+        </main>
+
+        <hr>
+
+
+        <!-- 3. FOOTER (PARENT BAGIAN BAWAH) -->
+        <footer id="kontak" class="footer-bawah">
+            <p>Dibuat dengan semangat belajar & copy; 2026 Alfaribi Kent Nayottama.</p>
+            <p>
+                Kunjungi: <a href="https://github.com/tama3101-11" target="_blank">Profil GitHub</a>
+            </p>
+        </footer>
+
+    </body>
+</html>
+           
+    
+    
+     
